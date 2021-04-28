@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-app.use(session({       //initializing session 
+app.use(session({                   //initializing session 
     secret: "My little secrets.",
     resave: false,
     saveUninitialized: false
